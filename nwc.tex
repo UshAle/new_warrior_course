@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 \usepackage{graphicx}
+\usepackage{placeins}
 \graphicspath{{proteus/}}
 \title{Курс молодого бойца}
 \author{Ушаков А. Е., Храмцов И. А., Кузнецов В. А.}
@@ -61,13 +62,26 @@
 \section{Использование программ}
 \subsection{Proteus}
 После запуска Proteus(isis.exe) должно открыться окно как на рис.~\ref{p1} 
-\begin{figure}[h]
-\center{\includegraphics[width=1\linewidth]{1.jpg}}
+\begin{figure}[H]
+\center{\includegraphics[width=0.8\linewidth]{1.jpg}}
 \caption{Начальное окно Proteus}
 \label{p1}
 \end{figure}
-\newline
-dffdsg
+Чтобы выбрать микроконтроллер(или какой либо другой элемент) запустите окно Pick devices. рис.~\ref{p2} 
+\begin{figure}[H]
+\center{\includegraphics[width=0.8\linewidth]{2.jpg}}
+\caption{Pick devices}
+\label{p2}
+\end{figure}
+Прошить микроконтроллер можно, выбрав соответствующий hex файл, в Edit component рис.~\ref{p3} 
+\begin{figure}[H] 
+\center{\includegraphics[width=0.8\linewidth]{3.jpg}}
+\caption{Pick devices}
+\label{p3}
+\end{figure}
+
+\newpage
+\FloatBarrier
 \section{Куски кода}
 
 \subsection{}
